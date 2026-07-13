@@ -2,6 +2,11 @@
 
 A simple Rock Paper Scissors game built using Python. The player competes against the computer, and the winner is decided based on the game rules.
 
+
+## Screenshot
+
+![Rock Paper Scissors Game](screenshot.png)
+
 ## Features
 
 - Play Rock, Paper, Scissors against the computer
