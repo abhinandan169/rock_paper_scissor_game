@@ -19,7 +19,7 @@ while True:
             print("computer", computer)
             print("player", player) 
             print("You win!")
-        if computer == "paper":
+        elif computer == "paper":
             print("computer", computer)
             print("player", player)
             print("You Lose!")
@@ -28,28 +28,24 @@ while True:
         if computer == "scissors":
             print("computer", computer)
             print("player", player)
-            print("You win!")
-        if computer == "rock":
+            print("You Lose!")
+        elif computer == "rock":
             print("computer", computer)
             print("player", player)
-            print("You Lose!")
+            print("You Win!")
 
     elif player == "scissors":
         if computer == "paper":
             print("computer", computer)
             print("player", player)
             print("You win!")
-        if computer == "rock":
+        elif computer == "rock":
             print("computer", computer)
             print("player", player)
             print("You Lose!")
 
-    # try_again = input("Try again? (yes/no):").lower()
-    # if try_again != "yes":
-    #            break
+    try_again = input("Try again? (yes/no): ").lower()
+    if try_again != "yes":
+        break
 
 print("Thanks for playing!")
-
-
-
-           
