@@ -60,7 +60,17 @@ while True:
     print("\n----- Score -----")
     print(f"Player   : {player_score}")
     print(f"Computer : {computer_score}")
-    print("-----------------\n")        
+    print("-----------------\n") 
+
+    # -------- Best of 3 Feature --------
+    if player_score == 3:
+        print("🎉 Congratulations! You won the Best of 3 Game!")
+        break
+
+    elif computer_score == 3:
+        print("💻 Computer won the Best of 3 Game!")
+        break
+    # -----------------------------------       
 
     try_again = input("Try again? (yes/no): ").lower()
     if try_again != "yes":
